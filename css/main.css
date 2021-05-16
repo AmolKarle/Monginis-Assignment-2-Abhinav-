@@ -1,0 +1,267 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  color: #676767;
+}
+
+a {
+  text-decoration: none;
+}
+
+.padding-tb {
+  padding: 80px 0;
+}
+
+.menu-icon {
+  background-image: url("../images/menu.png");
+  background-repeat: no-repeat;
+  padding: 10px;
+  display: block;
+  background-position: center;
+  background-size: 18px;
+}
+
+.home-icon {
+  background-image: url("../images/white-home.png");
+  background-repeat: no-repeat;
+  padding: 12px 18px;
+  display: block;
+  background-position: center;
+  background-size: 24px;
+}
+
+.chef-icon {
+  background-image: url("../images/utensils-solid.svg");
+  background-repeat: no-repeat;
+  padding: 16px;
+  display: inline-block;
+  background-position: center;
+  background-size: 18px;
+  background-color: #302604;
+  border-radius: 3px;
+}
+
+header {
+  background-color: var(--white-color, #ffffff);
+}
+.navbar {
+  display: block;
+}
+.navbar-brand {
+  width: 9rem;
+  display: block;
+  margin-bottom: 16px;
+}
+.navbar-brand img {
+  display: block;
+}
+.navbar .navbar-toggler:focus {
+  box-shadow: none;
+  outline: none;
+}
+.navbar-toggler .navbar-toggler-icon {
+  background-image: url("../images/menu.png");
+  background-repeat: no-repeat;
+  padding: 10px;
+  display: block;
+  background-position: center;
+  background-size: 20px;
+}
+.navbar-nav .nav-item {
+  padding: 0 10px;
+}
+.navbar-nav .nav-item .nav-link {
+  text-transform: uppercase;
+  color: #3f3f3f;
+  padding: 10px;
+  transition: all 0.3s ease-in-out;
+}
+.navbar-nav .nav-item .nav-link.active {
+  background-color: #ff90ba;
+}
+.navbar-nav .nav-item .nav-link:hover {
+  background-color: #ff90ba;
+  color: white;
+  transition: all 0.3s ease-in-out;
+}
+.banner {
+  background-image: url("../images/Web-Banner.jpg");
+  background-repeat: no-repeat;
+  background-position: right center;
+  background-size: cover;
+  height: 500px;
+  width: 100%;
+  -webkit-box-shadow: 0 4px 13px 0px rgba(0, 0, 0, 0.42);
+  box-shadow: 0 4px 13px 0px rgba(0, 0, 0, 0.42);
+}
+.Monginis-info .Monginis-bg-color {
+  background-color: #ecece7;
+  padding: 3rem 0;
+}
+.Monginis-info .Monginis-info-wrapper {
+  position: relative;
+  cursor: pointer;
+  margin-bottom: 24px;
+  transition: all 0.3s ease-in-out;
+  overflow: hidden;
+}
+.Monginis-info-wrapper .Monginis-image {
+  transition: all 0.3s ease-in-out;
+}
+.Monginis-info-wrapper .Monginis-image img {
+  display: block;
+  width: 100%;
+}
+.Monginis-info-wrapper .Monginis-text-info {
+  text-align: center;
+  padding: 4rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #ec8f17;
+  opacity: 0.8;
+  visibility: hidden;
+  transition: all 0.3s ease-in-out;
+}
+.Monginis-info-wrapper .Monginis-text-info p a {
+  font-size: 16px;
+  color: #000000;
+  margin-bottom: 0;
+}
+.Monginis-info-wrapper:hover .Monginis-image {
+  transform: scale(1.1);
+  transition: all 0.3s ease-in-out;
+}
+.Monginis-info-wrapper:hover .Monginis-text-info {
+  visibility: visible;
+  transition: all 0.5s ease-in-out;
+}
+.mongiland-info {
+  background-color: #ecece7;
+}
+.mongiland-info .mongiland-banner {
+  background-image: url("../images/Banner-2.jpg");
+  background-repeat: no-repeat;
+  background-position: right center;
+  background-size: cover;
+  height: 300px;
+  width: 100%;
+  -webkit-box-shadow: 0 4px 13px 0px rgba(0, 0, 0, 0.42);
+  box-shadow: 0 4px 13px 0px rgba(0, 0, 0, 0.42);
+}
+.mongiland-info .slide-info {
+  background-color: white;
+  padding: 1rem;
+  padding-bottom: 0;
+  margin-top: 4rem;
+}
+.mongiland-info .slide-info .slide-info-img {
+  cursor: pointer;
+  padding-bottom: 1rem;
+}
+.mongiland-info .slide-info .slide-info-img img {
+  display: block;
+  width: 100%;
+}
+.mongiland-info .slide-info .slide-info-img:hover img {
+  opacity: 0.8;
+}
+.mongiland-info .Monginis-partnership-info {
+  background-color: white;
+  padding: 1rem;
+  padding-bottom: 0;
+  margin-top: 4rem;
+}
+.mongiland-info .Monginis-partnership-info .partnership-info-img {
+  cursor: pointer;
+  padding-bottom: 1rem;
+}
+.mongiland-info .Monginis-partnership-info .partnership-info-img img {
+  display: block;
+  width: 100%;
+}
+.mongiland-info .Monginis-partnership-info .partnership-info-img:hover img {
+  opacity: 0.8;
+}
+.Monginis-contact-us {
+  background-color: #2a2a2a;
+  margin-top: 3rem;
+  padding: 2.5rem 0;
+}
+.Monginis-contact-us h4 {
+  color: #aaaaaa;
+}
+.Monginis-contact-us .social-icons {
+  list-style-type: none;
+  padding-left: 0;
+}
+.Monginis-contact-us .social-icons li {
+  padding-right: 24px;
+  margin-bottom: 0;
+}
+.Monginis-contact-us .social-icons li a {
+  font-size: 2rem;
+  color: #aaaaaa;
+  transition: all 0.3s ease-in-out;
+}
+.Monginis-contact-us .social-icons li a:hover {
+  color: #ed008c;
+  transition: all 0.3s ease-in-out;
+}
+.Monginis-contact-us .social-icons li:last-child {
+  padding-right: 0;
+}
+.Monginis-contact-us .border-seprator {
+  border-bottom: 1px solid #303030;
+}
+.Monginis-contact-us .contact-info {
+  list-style-type: none;
+  padding-left: 0;
+}
+.Monginis-contact-us .contact-info li a {
+  color: #aaaaaa;
+  padding-bottom: 5px;
+  font-size: 13px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+.Monginis-contact-us .contact-info li a:hover {
+  color: #ed008c;
+  transition: all 0.3s ease-in-out;
+}
+
+.copy-right-section {
+  padding: 20px 0;
+  background-color: #1c1c1c;
+}
+.copy-right-section .copy-right-title {
+  font-size: 13px;
+  color: #aaaaaa;
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+  .navbar-brand {
+    display: flex !important;
+    justify-content: center;
+    width: 100% !important;
+  }
+}
+@media (min-width: 320px) and (max-width: 576px) {
+  .navbar-brand {
+    display: flex !important;
+    justify-content: center;
+    width: 100% !important;
+  }
+}
